@@ -1,0 +1,4 @@
+version: v1.1.0
+steps:
+  - build: -t $Registry/dtb/devops/acr-task-test:latest -f Dockerfile .
+  - push : $Registry/dtb/devops/acr-task-test:latest
